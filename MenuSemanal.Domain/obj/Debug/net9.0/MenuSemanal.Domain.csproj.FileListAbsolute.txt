@@ -20,3 +20,16 @@ C:\Angular\MenuSemanal\BackEnd\Backend MenuSemanal\MenuSemanal\MenuSemanal.Domai
 C:\Angular\MenuSemanal\BackEnd\Backend MenuSemanal\MenuSemanal\MenuSemanal.Domain\obj\Debug\net9.0\refint\MenuSemanal.Domain.dll
 C:\Angular\MenuSemanal\BackEnd\Backend MenuSemanal\MenuSemanal\MenuSemanal.Domain\obj\Debug\net9.0\MenuSemanal.Domain.pdb
 C:\Angular\MenuSemanal\BackEnd\Backend MenuSemanal\MenuSemanal\MenuSemanal.Domain\obj\Debug\net9.0\ref\MenuSemanal.Domain.dll
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Domain\bin\Debug\net9.0\MenuSemanal.Domain.deps.json
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Domain\bin\Debug\net9.0\MenuSemanal.Domain.dll
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Domain\bin\Debug\net9.0\MenuSemanal.Domain.pdb
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Domain\obj\Debug\net9.0\MenuSemanal.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Domain\obj\Debug\net9.0\MenuSemanal.Domain.AssemblyInfoInputs.cache
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Domain\obj\Debug\net9.0\MenuSemanal.Domain.AssemblyInfo.cs
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Domain\obj\Debug\net9.0\MenuSemanal.Domain.csproj.CoreCompileInputs.cache
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Domain\obj\Debug\net9.0\MenuSemanal.Domain.sourcelink.json
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Domain\obj\Debug\net9.0\MenuSemanal.Domain.dll
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Domain\obj\Debug\net9.0\refint\MenuSemanal.Domain.dll
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Domain\obj\Debug\net9.0\MenuSemanal.Domain.pdb
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Domain\obj\Debug\net9.0\ref\MenuSemanal.Domain.dll
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Domain\obj\Debug\net9.0\MenuSema.C74E2A1D.Up2Date

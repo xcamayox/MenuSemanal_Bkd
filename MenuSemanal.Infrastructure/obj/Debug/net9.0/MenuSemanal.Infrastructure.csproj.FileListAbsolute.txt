@@ -36,3 +36,23 @@ C:\Angular\MenuSemanal\BackEnd\Backend MenuSemanal\MenuSemanal\MenuSemanal.Infra
 C:\Angular\MenuSemanal\BackEnd\Backend MenuSemanal\MenuSemanal\MenuSemanal.Infrastructure\obj\Debug\net9.0\MenuSemanal.Infrastructure.pdb
 C:\Angular\MenuSemanal\BackEnd\Backend MenuSemanal\MenuSemanal\MenuSemanal.Infrastructure\obj\Debug\net9.0\MenuSemanal.Infrastructure.genruntimeconfig.cache
 C:\Angular\MenuSemanal\BackEnd\Backend MenuSemanal\MenuSemanal\MenuSemanal.Infrastructure\obj\Debug\net9.0\ref\MenuSemanal.Infrastructure.dll
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Infrastructure\bin\Debug\net9.0\MenuSemanal.Infrastructure.deps.json
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Infrastructure\bin\Debug\net9.0\MenuSemanal.Infrastructure.runtimeconfig.json
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Infrastructure\bin\Debug\net9.0\MenuSemanal.Infrastructure.dll
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Infrastructure\bin\Debug\net9.0\MenuSemanal.Infrastructure.pdb
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Infrastructure\bin\Debug\net9.0\MenuSemanal.Application.dll
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Infrastructure\bin\Debug\net9.0\MenuSemanal.Domain.dll
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Infrastructure\bin\Debug\net9.0\MenuSemanal.Application.pdb
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Infrastructure\bin\Debug\net9.0\MenuSemanal.Domain.pdb
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Infrastructure\obj\Debug\net9.0\MenuSemanal.Infrastructure.csproj.AssemblyReference.cache
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Infrastructure\obj\Debug\net9.0\MenuSemanal.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Infrastructure\obj\Debug\net9.0\MenuSemanal.Infrastructure.AssemblyInfoInputs.cache
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Infrastructure\obj\Debug\net9.0\MenuSemanal.Infrastructure.AssemblyInfo.cs
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Infrastructure\obj\Debug\net9.0\MenuSemanal.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Infrastructure\obj\Debug\net9.0\MenuSemanal.Infrastructure.sourcelink.json
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Infrastructure\obj\Debug\net9.0\MenuSema.1F644397.Up2Date
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Infrastructure\obj\Debug\net9.0\MenuSemanal.Infrastructure.dll
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Infrastructure\obj\Debug\net9.0\refint\MenuSemanal.Infrastructure.dll
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Infrastructure\obj\Debug\net9.0\MenuSemanal.Infrastructure.pdb
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Infrastructure\obj\Debug\net9.0\MenuSemanal.Infrastructure.genruntimeconfig.cache
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Infrastructure\obj\Debug\net9.0\ref\MenuSemanal.Infrastructure.dll

@@ -26,6 +26,111 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "MenuSemanal.Presentation.Controllers.DiaSemanaController",
+    "Method": "GetAll",
+    "RelativePath": "api/DiaSemana",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MenuSemanal.Presentation.Controllers.DiaSemanaController",
+    "Method": "GetById",
+    "RelativePath": "api/DiaSemana/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MenuSemanal.Presentation.Controllers.MenuSemanaController",
+    "Method": "GetAll",
+    "RelativePath": "api/MenuSemana",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MenuSemanal.Presentation.Controllers.MenuSemanaController",
+    "Method": "Create",
+    "RelativePath": "api/MenuSemana",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MenuSemanal.Application.DTOs.CreateMenuSemanaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MenuSemanal.Presentation.Controllers.MenuSemanaController",
+    "Method": "GetById",
+    "RelativePath": "api/MenuSemana/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MenuSemanal.Presentation.Controllers.MenuSemanaController",
+    "Method": "Update",
+    "RelativePath": "api/MenuSemana/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "MenuSemanal.Application.DTOs.UpdateMenuSemanaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MenuSemanal.Presentation.Controllers.MenuSemanaController",
+    "Method": "Delete",
+    "RelativePath": "api/MenuSemana/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "MenuSemanal.Presentation.Controllers.PlatosController",
     "Method": "GetAll",
     "RelativePath": "api/Platos",

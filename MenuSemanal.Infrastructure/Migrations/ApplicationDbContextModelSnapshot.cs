@@ -42,6 +42,52 @@ namespace MenuSemanal.Infrastructure.Migrations
                     b.ToTable("categorias", (string)null);
                 });
 
+            modelBuilder.Entity("MenuSemanal.Domain.Entities.DiaSemana", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("character varying(150)")
+                        .HasColumnName("nombre");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("diasemana", (string)null);
+                });
+
+            modelBuilder.Entity("MenuSemanal.Domain.Entities.MenuSemana", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("IdCategoria")
+                        .HasColumnType("integer")
+                        .HasColumnName("idcategoria");
+
+                    b.Property<int>("IdDia")
+                        .HasColumnType("integer")
+                        .HasColumnName("iddia");
+
+                    b.Property<int>("IdPlato")
+                        .HasColumnType("integer")
+                        .HasColumnName("idplato");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("menusemanal", (string)null);
+                });
+
             modelBuilder.Entity("MenuSemanal.Domain.Entities.Plato", b =>
                 {
                     b.Property<int>("Id")

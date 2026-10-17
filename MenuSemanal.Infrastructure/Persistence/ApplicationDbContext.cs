@@ -14,6 +14,8 @@ namespace MenuSemanal.Infrastructure.Persistence
 
         public DbSet<Plato> Platos => Set<Plato>();
         public DbSet<Categoria> Categorias => Set<Categoria>();
+        public DbSet<DiaSemana> DiasSemana => Set<DiaSemana>();
+        public DbSet<MenuSemana> MenuSemana => Set<MenuSemana>();
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

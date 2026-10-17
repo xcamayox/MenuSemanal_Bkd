@@ -14,7 +14,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnectionFux")));
 
 // Registro de Inyección de Dependencias
 builder.Services.AddScoped<IPlatoRepository, PlatoRepository>();
@@ -22,6 +22,12 @@ builder.Services.AddScoped<IPlatoService, PlatoService>();
 
 builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
 builder.Services.AddScoped<ICategoriaService, CategoriaService>();
+
+builder.Services.AddScoped<IDiaSemanaRepository, DiaSemanaRepository>();
+builder.Services.AddScoped<IDiaSemanaService, DiaSemanaService>();
+
+builder.Services.AddScoped<IMenuSemanaRepository, MenuSemanaRepository>();
+builder.Services.AddScoped<IMenuSemanaService, MenuSemanaService>();
 
 // Habilitar CORS para consumir desde Angular (localhost:4200)
 builder.Services.AddCors(options =>

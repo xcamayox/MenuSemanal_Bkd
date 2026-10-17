@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Angular\\BackEnd\\MenuSemanal_Bkd\\MenuSemanal_Bkd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01148AF4-6265-4B9F-817B-388030C55DCA}|MenuSemanal.Presentation\\MenuSemanal.Presentation.csproj|c:\\angular\\backend\\menusemanal_bkd\\menusemanal_bkd\\menusemanal.presentation\\controllers\\platocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01148AF4-6265-4B9F-817B-388030C55DCA}|MenuSemanal.Presentation\\MenuSemanal.Presentation.csproj|solutionrelative:menusemanal.presentation\\controllers\\platocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01148AF4-6265-4B9F-817B-388030C55DCA}|MenuSemanal.Presentation\\MenuSemanal.Presentation.csproj|c:\\angular\\backend\\menusemanal_bkd\\menusemanal_bkd\\menusemanal.presentation\\controllers\\diasemanacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01148AF4-6265-4B9F-817B-388030C55DCA}|MenuSemanal.Presentation\\MenuSemanal.Presentation.csproj|solutionrelative:menusemanal.presentation\\controllers\\diasemanacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlatoController.cs",
+              "DocumentMoniker": "C:\\Angular\\BackEnd\\MenuSemanal_Bkd\\MenuSemanal_Bkd\\MenuSemanal.Presentation\\Controllers\\PlatoController.cs",
+              "RelativeDocumentMoniker": "MenuSemanal.Presentation\\Controllers\\PlatoController.cs",
+              "ToolTip": "C:\\Angular\\BackEnd\\MenuSemanal_Bkd\\MenuSemanal_Bkd\\MenuSemanal.Presentation\\Controllers\\PlatoController.cs",
+              "RelativeToolTip": "MenuSemanal.Presentation\\Controllers\\PlatoController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-17T20:09:13.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DiaSemanaController.cs",
+              "DocumentMoniker": "C:\\Angular\\BackEnd\\MenuSemanal_Bkd\\MenuSemanal_Bkd\\MenuSemanal.Presentation\\Controllers\\DiaSemanaController.cs",
+              "RelativeDocumentMoniker": "MenuSemanal.Presentation\\Controllers\\DiaSemanaController.cs",
+              "ToolTip": "C:\\Angular\\BackEnd\\MenuSemanal_Bkd\\MenuSemanal_Bkd\\MenuSemanal.Presentation\\Controllers\\DiaSemanaController.cs",
+              "RelativeToolTip": "MenuSemanal.Presentation\\Controllers\\DiaSemanaController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-17T19:08:26.633Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

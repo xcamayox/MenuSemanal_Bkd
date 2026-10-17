@@ -28,3 +28,19 @@ C:\Angular\MenuSemanal\BackEnd\Backend MenuSemanal\MenuSemanal\MenuSemanal.Appli
 C:\Angular\MenuSemanal\BackEnd\Backend MenuSemanal\MenuSemanal\MenuSemanal.Application\obj\Debug\net9.0\refint\MenuSemanal.Application.dll
 C:\Angular\MenuSemanal\BackEnd\Backend MenuSemanal\MenuSemanal\MenuSemanal.Application\obj\Debug\net9.0\MenuSemanal.Application.pdb
 C:\Angular\MenuSemanal\BackEnd\Backend MenuSemanal\MenuSemanal\MenuSemanal.Application\obj\Debug\net9.0\ref\MenuSemanal.Application.dll
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Application\bin\Debug\net9.0\MenuSemanal.Application.deps.json
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Application\bin\Debug\net9.0\MenuSemanal.Application.dll
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Application\bin\Debug\net9.0\MenuSemanal.Application.pdb
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Application\bin\Debug\net9.0\MenuSemanal.Domain.dll
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Application\bin\Debug\net9.0\MenuSemanal.Domain.pdb
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Application\obj\Debug\net9.0\MenuSemanal.Application.csproj.AssemblyReference.cache
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Application\obj\Debug\net9.0\MenuSemanal.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Application\obj\Debug\net9.0\MenuSemanal.Application.AssemblyInfoInputs.cache
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Application\obj\Debug\net9.0\MenuSemanal.Application.AssemblyInfo.cs
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Application\obj\Debug\net9.0\MenuSemanal.Application.csproj.CoreCompileInputs.cache
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Application\obj\Debug\net9.0\MenuSemanal.Application.sourcelink.json
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Application\obj\Debug\net9.0\MenuSema.2138C944.Up2Date
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Application\obj\Debug\net9.0\MenuSemanal.Application.dll
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Application\obj\Debug\net9.0\refint\MenuSemanal.Application.dll
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Application\obj\Debug\net9.0\MenuSemanal.Application.pdb
+C:\Angular\BackEnd\MenuSemanal_Bkd\MenuSemanal_Bkd\MenuSemanal.Application\obj\Debug\net9.0\ref\MenuSemanal.Application.dll
