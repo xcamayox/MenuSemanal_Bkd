@@ -27,7 +27,8 @@ namespace MenuSemanal.Application.Services
                 Id = p.Id,
                 IdDia = p.IdDia,
                 IdCategoria = p.IdCategoria,
-                IdPlato = p.IdPlato
+                IdPlato = p.IdPlato,
+                IdUsuario= p.IdUsuario,
             });
         }
 
@@ -41,7 +42,8 @@ namespace MenuSemanal.Application.Services
                 Id = plato.Id,
                 IdDia = plato.IdDia,
                 IdCategoria = plato.IdCategoria,
-                IdPlato = plato.IdPlato
+                IdPlato = plato.IdPlato,
+                IdUsuario= plato.IdUsuario,
             };
         }
 
@@ -51,7 +53,8 @@ namespace MenuSemanal.Application.Services
             {
                 IdDia = dto.IdDia,
                 IdCategoria = dto.IdCategoria,
-                IdPlato = dto.IdPlato
+                IdPlato = dto.IdPlato,
+                IdUsuario= dto.IdUsuario,
                 
             };
 
@@ -62,9 +65,38 @@ namespace MenuSemanal.Application.Services
                 Id = nuevoPlato.Id,
                 IdDia = nuevoPlato.IdDia,
                 IdCategoria = nuevoPlato.IdCategoria,
-                IdPlato = nuevoPlato.IdPlato
-            
+                IdPlato = nuevoPlato.IdPlato,
+                IdUsuario=nuevoPlato.IdUsuario,
             };
+        }
+        public async Task<bool> ReemplazarMenuAsync(List<MenuSemanaDto> nuevosMenus)
+        {
+            if (nuevosMenus == null || !nuevosMenus.Any()) return false;
+
+            // Obtenemos el ID del usuario del primer elemento del arreglo
+            int idUsuario = nuevosMenus.First().IdUsuario;
+
+            // 1. Buscar los menús anteriores de ese usuario
+            var menusAnteriores = await _repository.GetByUsuarioIdAsync(idUsuario);
+
+            // 2. Si existen, eliminarlos
+            if (menusAnteriores.Any())
+            {
+                await _repository.DeleteRangeAsync(menusAnteriores);
+            }
+            var nuevosMenusEntidad = nuevosMenus.Select(dto => new MenuSemana
+            {
+                IdUsuario = dto.IdUsuario,
+                IdDia = dto.IdDia,
+                IdPlato = dto.IdPlato,
+                IdCategoria = dto.IdCategoria
+            }).ToList();
+            // 3. Agregar los nuevos platos masivamente
+            await _repository.AddRangeAsync(nuevosMenusEntidad);
+           
+            // 4. Persistir los cambios en la BD
+            await _repository.SaveChangesAsync();
+            return true;
         }
 
         public async Task<bool> UpdateAsync(int id, UpdateMenuSemanaDto dto)
@@ -75,6 +107,7 @@ namespace MenuSemanal.Application.Services
             menu.IdDia = dto.IdDia;
             menu.IdCategoria = dto.IdCategoria;
             menu.IdPlato = dto.IdPlato;
+            menu.IdUsuario= dto.IdUsuario;
 
             await _repository.UpdateAsync(menu);
             return true;
@@ -87,6 +120,13 @@ namespace MenuSemanal.Application.Services
 
             await _repository.DeleteAsync(id);
             return true;
+        }
+
+        
+
+        public async Task SaveChangesAsync()
+        {
+            await _repository.SaveChangesAsync();
         }
     }
 }

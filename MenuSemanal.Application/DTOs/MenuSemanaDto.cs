@@ -12,6 +12,8 @@ namespace MenuSemanal.Application.DTOs
         public int IdDia { get; set; }
         public int IdCategoria { get; set; }
         public int IdPlato { get; set; }
+        public int IdUsuario { get; set; }
+        
     }
 
     public class CreateMenuSemanaDto
@@ -19,6 +21,7 @@ namespace MenuSemanal.Application.DTOs
         public int IdDia { get; set; }
         public int IdCategoria { get; set; }
         public int IdPlato { get; set; }
+        public int IdUsuario { get; set; }
     }
 
     public class UpdateMenuSemanaDto
@@ -26,5 +29,6 @@ namespace MenuSemanal.Application.DTOs
         public int IdDia { get; set; }
         public int IdCategoria { get; set; }
         public int IdPlato { get; set; }
+        public int IdUsuario { get; set; }
     }
 }

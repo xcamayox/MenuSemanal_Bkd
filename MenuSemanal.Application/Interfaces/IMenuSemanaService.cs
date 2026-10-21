@@ -1,4 +1,5 @@
 ﻿using MenuSemanal.Application.DTOs;
+using MenuSemanal.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,5 +15,9 @@ namespace MenuSemanal.Application.Interfaces
         Task<MenuSemanaDto> CreateAsync(CreateMenuSemanaDto dto);
         Task<bool> UpdateAsync(int id, UpdateMenuSemanaDto dto);
         Task<bool> DeleteAsync(int id);
+
+        Task<bool> ReemplazarMenuAsync(List<MenuSemanaDto> dto);
+
+        Task SaveChangesAsync();
     }
 }

@@ -46,4 +46,28 @@ public class MenuSemanaRepository : IMenuSemanaRepository
             await _context.SaveChangesAsync();
         }
     }
+
+
+    public async Task<IEnumerable<MenuSemana>> GetByUsuarioIdAsync(int idUsuario)
+    {
+        return await _context.MenuSemana
+            .Where(m => m.IdUsuario == idUsuario)
+            .ToListAsync();
+    }
+
+    public async Task DeleteRangeAsync(IEnumerable<MenuSemana> menus)
+    {
+        _context.MenuSemana.RemoveRange(menus);
+        await Task.CompletedTask; // Operación en memoria hasta el SaveChanges
+    }
+
+    public async Task AddRangeAsync(IEnumerable<MenuSemana> menus)
+    {
+        await _context.MenuSemana.AddRangeAsync(menus);
+    }
+
+    public async Task SaveChangesAsync()
+    {
+        await _context.SaveChangesAsync();
+    }
 }

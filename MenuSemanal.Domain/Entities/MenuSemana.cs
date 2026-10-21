@@ -12,5 +12,6 @@ namespace MenuSemanal.Domain.Entities
         public int IdDia { get; set; }
         public int IdPlato { get; set; }
         public int IdCategoria { get; set; }
+        public int IdUsuario { get; set; }
     }
 }

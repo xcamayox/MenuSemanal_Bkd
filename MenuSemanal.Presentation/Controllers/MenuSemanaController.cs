@@ -1,5 +1,7 @@
 ﻿using MenuSemanal.Application.DTOs;
 using MenuSemanal.Application.Interfaces;
+using MenuSemanal.Domain.Entities;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MenuSemanal.Presentation.Controllers
@@ -19,23 +21,31 @@ namespace MenuSemanal.Presentation.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            var platos = await _menusemanaService.GetAllAsync();
-            return Ok(platos);
+            var menus = await _menusemanaService.GetAllAsync();
+            return Ok(menus);
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            var plato = await _menusemanaService.GetByIdAsync(id);
-            if (plato == null) return NotFound();
-            return Ok(plato);
+            var menu = await _menusemanaService.GetByIdAsync(id);
+            if (menu == null) return NotFound();
+            return Ok(menu);
         }
 
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] CreateMenuSemanaDto dto)
         {
-            var nuevoPlato = await _menusemanaService.CreateAsync(dto);
-            return CreatedAtAction(nameof(GetById), new { id = nuevoPlato.Id }, nuevoPlato);
+            var nuevoMenu = await _menusemanaService.CreateAsync(dto);
+            return CreatedAtAction(nameof(GetById), new { id = nuevoMenu.Id }, nuevoMenu);
+        }
+
+        [HttpPost("reemplazar")]
+        public async Task<IActionResult> ReemplazarMenuAsync([FromBody] List<MenuSemanaDto> dto)
+        {
+            var nuevoMenu = await _menusemanaService.ReemplazarMenuAsync(dto);
+            if (!nuevoMenu) return NotFound();
+            return NoContent();
         }
 
         [HttpPut("{id}")]

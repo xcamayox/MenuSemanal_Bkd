@@ -83,6 +83,12 @@ namespace MenuSemanal.Infrastructure.Migrations
                         .HasColumnType("integer")
                         .HasColumnName("idplato");
 
+                    b.Property<int>("IdUsuario")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasDefaultValue(1)
+                        .HasColumnName("idusuario");
+
                     b.HasKey("Id");
 
                     b.ToTable("menusemanal", (string)null);

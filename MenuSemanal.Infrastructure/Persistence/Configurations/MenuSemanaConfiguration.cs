@@ -31,8 +31,12 @@ namespace MenuSemanal.Infrastructure.Persistence.Configurations
             builder.Property(p => p.IdPlato)
                  .HasColumnName("idplato")
                  .IsRequired();
+            builder.Property(p => p.IdUsuario)
+                 .HasColumnName("idusuario")
+                 .HasDefaultValue(1)
+                 .IsRequired();
 
-           
+
 
             // Ejemplo si tienes una relación con Categoria (Foreing Key)
             // builder.HasOne(p => p.Categoria)
