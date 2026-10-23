@@ -63,6 +63,14 @@ namespace MenuSemanal.Presentation.Controllers
             if (!result) return NotFound();
             return NoContent();
         }
+
+        [HttpDelete("Limpiar/{idusuario}")]
+        public async Task<IActionResult> DeleteByUsuario(int idusuario)
+        {
+            var result = await _menusemanaService.DeleteByUsuario(idusuario);
+            if (!result) return NotFound();
+            return NoContent();
+        }
     }
 }
 

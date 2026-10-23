@@ -121,7 +121,17 @@ namespace MenuSemanal.Application.Services
             await _repository.DeleteAsync(id);
             return true;
         }
+        public async Task<bool> DeleteByUsuario(int idusuario)
+        {
+            var menusAnteriores = await _repository.GetByUsuarioIdAsync(idusuario);
 
+            if (menusAnteriores.Any())
+            {
+                await _repository.DeleteRangeAsync(menusAnteriores);
+            }
+            await _repository.SaveChangesAsync();
+            return true;
+        }
         
 
         public async Task SaveChangesAsync()

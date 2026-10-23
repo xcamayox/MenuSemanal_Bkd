@@ -15,7 +15,8 @@ namespace MenuSemanal.Application.Interfaces
         Task<MenuSemanaDto> CreateAsync(CreateMenuSemanaDto dto);
         Task<bool> UpdateAsync(int id, UpdateMenuSemanaDto dto);
         Task<bool> DeleteAsync(int id);
-
+        Task<bool> DeleteByUsuario(int idusuario);
+        
         Task<bool> ReemplazarMenuAsync(List<MenuSemanaDto> dto);
 
         Task SaveChangesAsync();
